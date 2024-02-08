@@ -1,0 +1,465 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <!-- Metadata for character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Linking to external stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@5.5.0/dist/css/ionicons.min.css">
+    <link rel="stylesheet" href="stylee.css">
+    <!-- Title of the document -->
+    <title>MELLOW GRANDEUR!</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-md" id="navbar">
+        <div class="container-xxl container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="C:\Users\RODEO\Documents\website\assets\logoes.png" alt="logo" width="100px">
+          </a>
+          <a href="index.html" class="navbar-brand">
+            <img src="C:\Users\RODEO\Documents\website\mellow.png" alt="logo" width="250px">
+            </img>
+        </a>
+          <!-- Toggle for mobile nav -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <!-- Navbar links and account icon -->
+          <div class="collapse navbar-collapse justify-content-end align-center fw-bold" id="main-nav">
+            <ul class="navbar-nav">
+              <li class="navbar-nav">
+                <a href="index.html" target="_self" class="nav-link">Home</a>
+              </li>
+              <li class="navbar-nav dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                  <a class="dropdown-item" href="#services">Hand and Foot</a>
+                  <a class="dropdown-item" href="#eyelashes">Eyelashes and Brow</a>
+                  <a class="dropdown-item" href="#Waxing">Waxing Treatment</a>
+                </div>
+              </li>
+              <li class="navbar-nav">
+                <a href="#ContactUs" class="nav-link">About Us</a>
+              </li>
+            </ul>
+
+            <!-- Search form -->
+            <form class="d-flex" role="search">
+              <input class="form-control mx-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary fw-lighter" type="submit">Search</button>
+            </form>
+            <li class="navbar-nav">
+                <a href="login.html" class="navbar-text mx-2 d-block">
+                    <ion-icon name="person-circle-outline" style="font-size: 2rem;"></ion-icon>
+                  </a>
+              </li>
+          </div>
+        </div>
+      </nav>
+</body>
+ <!-- Services -->
+<section id="Products" class="mt-4 text-center">
+  <div id="services">
+      <div class="text-center">
+          <h2>Services</h2>
+          <p class="lead text-muted"></p>
+      </div>
+       <!-- Hand and Foot Services -->
+      <div id="hand">
+        <h5>HAND AND FOOT</h5>
+      <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Regular Manicure</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\1.png" alt="Product 1" class="img-fluid">
+                <p class="display-5 my-2 text-primary fw-bold">₱189.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Regular Pedicure</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\2.png" alt="Product 2" class="img-fluid">
+                <p class="display-5 my-2 text-primary fw-bold">₱220.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Gel Manicure</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\3.png" alt="Product 3" class="img-fluid">
+                <p class="display-5 my-2 text-primary fw-bold">₱499.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Gel Pedicure</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\4.png" alt="Product 4" class="img-fluid">
+                <p class="display-5 my-2 text-primary fw-bold">₱549.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="d-md-none d-lg-none d-lg-block">
+            <button id="toggleHand" class="fcc-btn btn-md mt-1">More Services</button>
+          </div>
+        </div>
+            <div id="SmallHand"class="d-none d-md-block">
+              <div class="row justify-content-center ">
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Nail Extension</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\5.png" alt="Product 1" class="img-fluid">
+                      <p class="display-5 my-2 text-primary fw-bold">₱1,100.00</p>
+                       <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Nail Ex Removal</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\6.png" alt="Product 2" class="img-fluid">
+                      <p class="display-5 my-2 text-primary fw-bold">₱299.00</p>
+                      <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Gel Removal</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\7.png" alt="Product 3" class="img-fluid">
+                      <p class="display-5 my-2 text-primary fw-bold">₱200.00</p>
+                      <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Nail Extension</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\8.png" alt="Product 4" class="img-fluid">
+                      <p class="display-5 my-2 text-primary fw-bold">₱1,299.00</p>
+                      <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                    </div>
+                </div>
+                  <div class="row justify-content-center ">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Hand Spa</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\9.png" alt="Product 1" class="img-fluid">
+                          <p class="display-5 my-2 text-primary fw-bold">₱299.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Classic Foot Spa</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\10.png" alt="Product 2" class="img-fluid">
+                          <p class="display-5 my-2 text-primary fw-bold">₱485.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Deluxe Foot Spa</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\11.png" alt="Product 3" class="img-fluid">
+                          <p class="display-5 my-2 text-primary fw-bold">₱549.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Foot & Hand Mask</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\12.png" alt="Product 4" class="img-fluid">
+                          <p class="display-5 my-2 text-primary fw-bold">₱429.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Products" class="mt-4 text-center">
+  <div id="eyelashes">
+     <!-- Eyelashes and Brow Services -->
+      <div id="EYE">
+        <h5>EYELASHES AND BROW</h5>
+      <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Natural Look</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\13.png" alt="Product 1" class="img-fluid">
+                <p class="display-5 my-2 text-primary fw-bold">₱699.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Classic 3D</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\14.png" alt="Product 2" class="img-fluid">
+                <p class="display-5 my-2 text-primary fw-bold">₱749.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Hybrid</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\15.png" alt="Product 3" class="img-fluid">
+                <p class="display-5 my-2 text-primary fw-bold">₱849.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Mega Volume</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\16.png" alt="Product 4" class="img-fluid">
+                <p class="display-5 my-2 text-primary fw-bold">₱949.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="d-md-none d-lg-none d-lg-block">
+            <button id="toggleEyelash" class="fcc-btn btn-md mt-1">More Services</button>
+          </div>
+        </div>
+            <div id="SmallEyelash"class="d-none d-md-block">
+              <div class="row justify-content-center ">
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Lash Lift</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\17.png" alt="Product 1" class="img-fluid">
+                      <p class="display-5 my-2 text-primary fw-bold">₱549.00</p>
+                      <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Eyelash Retouch</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\18.png" alt="Product 2" class="img-fluid">
+                      <p class="display-5 my-2 text-primary fw-bold">₱349.00</p>
+                      <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Eyelash Removal</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\19.png" alt="Product 3" class="img-fluid">
+                      <p class="display-5 my-2 text-primary fw-bold">₱249.00</p>
+                      <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                    </div>
+                </div>
+
+                  <div class="row justify-content-center ">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Brow Threading</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\20.png" alt="Product 1" class="img-fluid">
+                          <p class="display-5 my-2 text-primary fw-bold">₱199.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Brow Lamination</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\21.png" alt="Product 2" class="img-fluid">
+                          <p class="display-5 my-2 text-primary fw-bold">₱249.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Brow Tint</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\22.png" alt="Product 3" class="img-fluid">
+                          <p class="display-5 my-2 text-primary fw-bold">₱249.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Products" class="mt-4 text-center">
+  <div id="Waxing">
+     <!-- Waxing Treaments Services -->
+      <div id="Wax">
+        <h5>WAXING TREATMENTS</h5>
+      <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Under Arm</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\23.png" alt="Product 1" class="img-fluid">
+                <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                <p class="display-5 my-1 text-primary fw-bold">₱280.00</p>
+                <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                <p class="display-5 my-1 text-primary fw-bold">₱330.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Half Arm</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\24.png" alt="Product 2" class="img-fluid">
+                <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                <p class="display-5 my-1 text-primary fw-bold">₱280.00</p>
+                <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                <p class="display-5 my-1 text-primary fw-bold">₱330.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Full Arm</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\25.png" alt="Product 3" class="img-fluid">
+                <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                <p class="display-5 my-1 text-primary fw-bold">₱480.00</p>
+                <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                <p class="display-5 my-1 text-primary fw-bold">₱530.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mb-4 ">
+              <div class="services-card p-3 bg-light">
+                <div class="card-header text-black fw-bold">Face</div>
+                <img src="C:\Users\RODEO\Documents\website\assets\26.png" alt="Product 4" class="img-fluid">
+                <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                <p class="display-5 my-1 text-primary fw-bold">₱280.00</p>
+                <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                <p class="display-5 my-1 text-primary fw-bold">₱330.00</p>
+                <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+              </div>
+          </div>
+          <div class="d-md-none d-lg-none d-lg-block">
+            <button id="toggleWax" class="fcc-btn btn-md mt-1">More Services</button>
+          </div>
+        </div>
+            <div id="SmallWax" class="d-none d-md-block">
+              <div class="row justify-content-center ">
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Upper Lip</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\27.png" alt="Product 1" class="img-fluid">
+                      <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                      <p class="display-5 my-1 text-primary fw-bold">₱130.00</p>
+                      <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                      <p class="display-5 my-1 text-primary fw-bold">₱180.00</p>
+                      <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Lower Lip</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\28.png" alt="Product 2" class="img-fluid">
+                      <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                      <p class="display-5 my-1 text-primary fw-bold">₱130.00</p>
+                      <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                      <p class="display-5 my-1 text-primary fw-bold">₱180.00</p>
+                      <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="services-card p-3 bg-light">
+                      <div class="card-header text-black fw-bold">Eyebrow</div>
+                      <img src="C:\Users\RODEO\Documents\website\assets\29.png" alt="Product 3" class="img-fluid">
+                      <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                      <p class="display-5 my-1 text-primary fw-bold">₱130.00</p>
+                      <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                      <p class="display-5 my-1 text-primary fw-bold">₱180.00</p>
+                      <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                  <div class="services-card p-3 bg-light">
+                    <div class="card-header text-black fw-bold">Check/Back</div>
+                    <img src="C:\Users\RODEO\Documents\website\assets\30.png" alt="Product 3" class="img-fluid">
+                    <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                    <p class="display-5 my-1 text-primary fw-bold">₱380.00</p>
+                    <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                    <p class="display-5 my-1 text-primary fw-bold">₱580.00</p>
+                    <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                  </div>
+
+                  </div>
+                  <div class="row justify-content-center ">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Half Leg</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\31.png" alt="Product 1" class="img-fluid">
+                          <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                          <p class="display-5 my-1 text-primary fw-bold">₱480.00</p>
+                          <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                          <p class="display-5 my-1 text-primary fw-bold">₱530.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Brow Lamination</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\32.png" alt="Product 2" class="img-fluid">
+                          <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                          <p class="display-5 my-1 text-primary fw-bold">₱280.00</p>
+                          <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                          <p class="display-5 my-1 text-primary fw-bold">₱330.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                        <div class="services-card p-3 bg-light">
+                          <div class="card-header text-black fw-bold">Full Leg</div>
+                          <img src="C:\Users\RODEO\Documents\website\assets\33.png" alt="Product 3" class="img-fluid">
+                          <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                          <p class="display-5 my-1 text-primary fw-bold">₱680.00</p>
+                          <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                          <p class="display-5 my-1 text-primary fw-bold">₱780.00</p>
+                          <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                      <div class="services-card p-3 bg-light">
+                        <div class="card-header text-black fw-bold">Brazilian</div>
+                        <img src="C:\Users\RODEO\Documents\website\assets\34.png" alt="Product 3" class="img-fluid">
+                        <p class="display-5 my-1 text-danger fw-bold">LADIES</p>
+                        <p class="display-5 my-1 text-primary fw-bold">₱280.00</p>
+                        <p class="display-5 my-1 text-info fw-bold">MEN</p>
+                        <p class="display-5 my-1 text-primary fw-bold">₱330.00</p>
+                        <a href="https://forms.gle/7pLJAY3WVf74z9Xi8" class="fcc-btn btn-md mt-1">Book Now</a>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+     <!-- About Us  -->
+<section id="ContactUs" class="mt-4 text-center">
+      <div class="container-lg" id="products">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <h2>About Us</h2>
+            <p class="lead text-muted">Any Concern? We are always ready to help you! <br>Contact Us</br></p>
+                <p><ion-icon name="call-outline"></ion-icon> +63 27 396 3730 <br> <ion-icon name="call-outline"></ion-icon> +63 28 462 4069</br></p>
+                  <p class="lead text-muted">Address</p>
+                  <a href="https://maps.app.goo.gl/QmYqtREst4NeVuUi9"><ion-icon name="location-outline"></ion-icon> Paciano Rizal Road, Barangay </a>
+
+                  <p class="lead text-muted">Support Our Socials here!</p>
+            <div class="social-icons">
+                  <a href="https://www.facebook.com/MellowGrandeur" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                  <a href="mellowgrandeur@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon></a>
+                  <a href="https://www.instagram.com/mellowgrandeur/" target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+ <!-- Footer -->
+        <div class="text-center fw-lighter text-primary-emphasis">© 2024 Mellow Grandeur. All Rights Reserved</div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="script.js">
+        
+      </script>
+  </div>
+</html>

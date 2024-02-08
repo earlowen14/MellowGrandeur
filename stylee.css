@@ -1,0 +1,167 @@
+/* styles.css */
+
+#navbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffc4c4;
+    border-radius: 20px;
+    box-shadow: 0px 2px 7px 10px #ffc4c4;
+}
+
+#intro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 45px;
+}
+#services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#eyelashes {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#Waxing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#hand {
+    box-shadow: 0px 0px 5px 12px #ffc4c4;
+    border-radius: 10px;
+    background: #ffc4c4;
+}
+
+#EYE {
+    box-shadow: 0px 0px 5px 12px #ffc4c4;
+    border-radius: 10px;
+    background: #ffc4c4;
+}
+#Wax {
+    box-shadow: 0px 0px 5px 12px #ffc4c4;
+    border-radius: 10px;
+    background: #ffc4c4;
+}
+#Products h2{
+    box-shadow: 0px 0px 5px 10px #ffc4c4;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #ffc4c4;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+#Products h5 {
+    text-shadow: 0 0 3px #ff4b4b, 0 0 5px #ff3e3e;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+#Products p {
+    padding: 8px ;
+    font-size: 16px;
+}
+.fcc-btn {
+    text-shadow: 0 0 3px #ff4b4b, 0 0 5px #ff3e3e;
+    background-color: #ffc4c4;
+    border: 2px solid #ffc4c4;
+    font-weight:bold;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+.services-card {
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 100%;
+    border: 2px solid #ffc4c4;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+
+.services-card:hover {
+    box-shadow: 0 0 20px #fd4444fa;
+    transform: scale(1, 1.08);
+}
+
+.services-card img {
+    border-bottom: 2px solid #ffc4c4;
+}
+
+.services-card .card-header {
+    color: #3442ff;
+    font-weight: bold;
+}
+
+.services-card .btn-primary {
+    background-color: #3442ff;
+    border-color: #3442ff;
+}
+
+.services-card .btn-primary:hover {
+    background-color: #3442ff;
+    border-color: #3442ff;
+}
+
+#ContactUs {
+    box-shadow: 0px -2px 5px 8px #ffc4c4;
+    background-color: #ffc4c4;
+    padding: 45px 0;
+    border-radius: 20px;
+}
+
+#ContactUs h2 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+#ContactUs p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    font-size: 3em;
+    color: #3442ff;
+    margin: 0 20px;
+}
+
+.social-icons a:hover {
+    color: #3442ff;
+}
+#background{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Wax p{
+    padding-bottom: px;
+    padding-top: 0px;
+}
+#bundles{
+    border-radius: 70px;
+    width:50%; /* Adjust the width as needed */
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 5px 12px #ffc4c4;
+    background: #ffc4c4;
+  }
+  .carousel-slide img {
+    width: 50px; /* Adjust the image width as needed */
+    height: auto;
+  }
+
