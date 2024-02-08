@@ -1,0 +1,87 @@
+
+    body {
+        position: relative;
+        font-weight: bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: #ffc4c4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 20px 5px #ff3e3e;;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: royalblue;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .social-icons {
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .social-icons button {
+        padding: 10px;
+        margin-right: 5px; 
+    }
+
+    .social-icons button:hover {
+        background-color: #ddd;
+    }
+
+    .social-icons button.facebook {
+        background-color: rgb(37, 168, 255);
+    }
+
+    .social-icons button.google {
+        background-color: red;
+    }
+
+    .social-icons button.twitter {
+        background-color: skyblue;
+    }
+    .fcc-btn {
+        font-weight:bold;
+        border-radius: 5px;
+        background-color: #ffc4c4;
+        color: rgb(0, 0, 0);
+        padding: 10px 10px;
+        text-decoration: none;
+    }   
+    .copyright {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        background-color: #f2f2f2; /* Optional: Add a background color */
+    }
